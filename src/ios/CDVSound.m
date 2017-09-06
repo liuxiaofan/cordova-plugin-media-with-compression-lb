@@ -334,7 +334,7 @@ for significantly better compression.
 			
 			AVAudioSession *audioSession = [AVAudioSession sharedInstance];
 			[audioSession setCategory:AVAudioSessionCategoryPlayAndRecord withOptions:AVAudioSessionCategoryOptionMixWithOthers|AVAudioSessionCategoryOptionDefaultToSpeaker error:nil];
-			[audioSession overrideOutputAudioPort:AVAudioSessionCategoryOptionDefaultToSpeaker  error:nil];
+			[audioSession overrideOutputAudioPort:AVAudioSessionPortOverrideSpeaker  error:nil];
 			[audioSession setActive:YES error:nil];
 			
                     NSLog(@"Playing audio sample '%@'", audioFile.resourcePath);
