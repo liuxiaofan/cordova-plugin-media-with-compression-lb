@@ -1,9 +1,9 @@
 {
-  "name": "cordova-media-with-compression",
-  "version": "2.1.1",
+  "name": "cordova-plugin-media-with-compression-lb",
+  "version": "2.2.1",
   "description": "Cordova Media Plugin with MPEG 4 audio compression for iOS and Android",
   "cordova": {
-    "id": "cordova-media-with-compression",
+    "id": "cordova-plugin-media-with-compression-lb",
     "platforms": [
       "android",
       "ios"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/remoorejr/cordova-plugin-media-with-compression.git"
+    "url": "git+https://github.com/usmakas/cordova-plugin-media-with-compression-lb.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -30,7 +30,7 @@
   "author": "@remoorejr",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/remoorejr/cordova-plugin-media-with-compression/issues"
+    "url": "https://github.com/usmakas/cordova-plugin-media-with-compression-lb/issues"
   },
-  "homepage": "https://github.com/remoorejr/cordova-plugin-media-with-compression#readme"
+  "homepage": "https://github.com/usmakas/cordova-plugin-media-with-compression-lb#readme"
 }
